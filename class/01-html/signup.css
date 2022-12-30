@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("../assets/fonts/Noto_Sans_KR/NotoSansKR-Black.ttf") format("truetype"), 
+  url("../assets/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf") format("opentype");
+}
+* {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-border{
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid #AACDFF;
+    width: 670px;
+    height: 960px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 39px #0068FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width:470px;
+    height:818px;
+}
+
+.form-head{
+    font-family: 'NotoSansKR';
+    width: 466px;
+    height: 94px;
+    font-size:32px;
+    font: Noto Sans C JK KR;
+    line-height: 47px;
+    color: #0068FF;
+    margin-bottom: 40px;
+}
+
+.info{
+    width: 466px;
+    height: 80px;
+}
+
+.text{
+    width:158px;
+    height: 23.65px;
+    color: #797979;
+}
+
+.gender-radio{
+    vertical-align: middle;
+    width: 140px;
+    height: 23.94px;
+    margin: auto;
+}
+
+.signup-button{
+    width: 470px;
+    height: 75px;
+    border-radius: 10px;
+    border: 1px solid #0068FF;
+    background: #FFFFFF;
+    color: #0068FF;
+}
+
+#info-text{
+    width: 466px;
+    border: none;
+    border-bottom: 1px solid #CFCFCF
+}
+
+hr{
+    width: 470px;
+    height: 1px;
+    border: 0;
+    border-bottom:1px solid #E6E6E6;
+}
+
+#gender-radio{
+    vertical-align: middle;
+    width: 20px;
+    height: 19.95px;
+    border:1px solid  #D2D2D2;
+    background-color: #EBEBEB;
+    font-size: 16px;
+    color: #000000;
+}
+
+.checkbox{
+    font-size: 14px; 
+    display: flex;
+    flex-direction: row;
+}
+#checkbox{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+
+

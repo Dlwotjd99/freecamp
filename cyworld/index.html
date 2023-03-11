@@ -1,72 +1,69 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <title>홍길동님의 미니홈피 :: 사이좋은 사람들, 싸이월드</title>
-        <link href="./styles/index.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/c38519553f.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="background">
-            <div class="outerbox">
-                <div class="wrapper">
-                    <div class="wrapper__left">
-                        <div class="wrapper__left__header">
-                            <div class="today">
-                                <span>TODAY</span>
-                                <span>0</span>
-                                <span> | TOTAL</span>
-                                <span>12345</span>
+<head>
+    <title>사이좋은 사람들, 싸이월드</title>
+    <link href="./styles/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="background">
+        <div class="outerbox">
+            <div class="wrapper">
+                <div class="wrapper__left">
+                    <div class="wrapper__left__header">
+                        <div class="today">
+                            TODAY
+                            <span class="zero">0</span>  |  TOTAL
+                            <span class="count">12345</span>
+                        </div>
+                    </div>
+                    <div class="wrapper__left__body">
+                        <div class="left__body__header">
+                            <div class="left__body__header__gray"></div>
+                            <div class="left__body__header__line"></div>
+                        </div>
+                        <div class="left__body__profile">
+                            <div class="profile__detail">
+                                <i class="fas fa-file-signature"></i>
+                                name
+                            </div>
+                            <div class="profile__detail">
+                                <i class="fas fa-phone"></i>
+                                phone
+                            </div>
+                            <div class="profile__detail">
+                                <i class="fas fa-envelope-square"></i>
+                                mail
+                            </div>
+                            <div class="profile__detail">
+                                <i class="fas fa-images"></i>
+                                instagram
                             </div>
                         </div>
-                        <div class="wrapper__left__body">
-                            <div class="left__body__header">
-                                <div class="left__body__header__gray"></div>
-                                <div class="left__body__header__line"></div>
-                            </div>
-                            <div class="left__body__profile">
-                                <div class="imoji">
-                                    <i class="fa-solid fa-circle-user"></i>
-                                    이름
-                                </div>
-                                <div class="imoji">
-                                    <i class="fa-solid fa-phone"></i>
-                                    Phone
-                                </div>
-                                <div class="imoji">
-                                    <i class="fa-solid fa-envelope"></i> 
-                                    E-mail
-                                </div>
-                                <div class="imoji">
-                                    <i class="fa-solid fa-star"></i> 
-                                    인스타그램
-                                </div>
-                            </div>
-                            <div class="left__body__footer">
+                        <div class="body__footer">
+                            <div class="wrapper__feel">
                                 <div class="feel__title">오늘의 기분</div>
                                 <select class="feel__select">
-                                    <option value="happy">기뻐요</option>
-                                    <option value="sad">슬퍼요</option>
-                                    <option value="mad">화나요</option>
-                                    <option value="soso">그냥 그래요</option>
+                                    <option>기쁨 😃</option>
+                                    <option>슬픔 😥</option>
+                                    <option>화남 😡</option>
+                                    <option>분노 🤬</option>
                                 </select>
                             </div>
                         </div>
                     </div>
-                    <div class="wrapper__right">
-                        <div class="wrapper__right__header">
-                            <div class="right__header__title">
-                                사이좋은 사람들, 싸이월드
-                            </div>
-                            <div class="right__headet__setting">
-                                사생활보호설정▶
-                            </div>
-                        </div>
-                        <div class="wrapper__right__body">
-                            <iframe src="./home.html"></iframe>
-                        </div>
+                </div>
+                <div class="wrapper__right">
+                    <div class="wrapper__right__header">
+                        <div class="right__header__title">사이좋은 사람들, 싸이월드</div>
+                        <div class="right__header__setting">사생활보호설정 <i class="fas fa-caret-right arrow"></i></div>
                     </div>
-                </div>    
-            </div>    
+                    <div class="wrapper__right__body">
+                        <iframe src="game.html"></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>

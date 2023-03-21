@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid #AACDFF;
+    width: 540px;
+    height: 960px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 39px #0068FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    width: 380px;
+}
+
+.title{
+    width:100%;
+    height: 47px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #0068ff;;
+    margin-bottom: 30px;
+}
+
+.information{
+    padding: 10px;
+    border: 1px solid #0068ff;
+    width: 100%;
+    height: 60px;
+    margin: 10px 0px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #797979;
+}
+
+.error{
+    text-align: center;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.phone__number{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #0068ff;
+    border-radius: 7px;
+    margin:10px 0px;
+}
+
+span{
+    width: 11px;
+    height: 0px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.authentication{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.authentication__{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 10px 0px;
+}
+
+
+.authentication__number{
+    font-size: 18px;
+    font-weight: 400;
+    color:#0068ff;
+    margin-right: 20px;
+}
+
+.authentication__button{
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #d2d2d2;
+}
+
+.location{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #d2d2d2;
+    background: #ffffff;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #797979;
+    padding: 10px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.radio__sex{
+    margin: 20px 0px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#radio__sex{
+    width: 70px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bar{
+    border: 1px solid #d2d2d2;
+    margin: 10px 0px;
+
+}
+
+#signup__button{
+    border: 1px solid #d2d2d2;
+    margin: 10px 0px;
+    width: 100%;
+    height: 75px;
+    border-radius: 7px;
+}

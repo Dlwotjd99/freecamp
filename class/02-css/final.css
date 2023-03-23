@@ -42,9 +42,9 @@
 }
 
 .error{
-    text-align: center;
-    font-size: 10px;
-    color: #ffffff;
+    color: red;
+    height: 10px;
+    font-size: 11px;
 }
 
 .phone{
